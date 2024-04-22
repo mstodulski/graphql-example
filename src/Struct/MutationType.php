@@ -52,7 +52,7 @@ class MutationType extends ObjectType {
         return new InputObjectType([
             'name' => 'complexObjectLevel2',
             'fields' => [
-                'stageTypes' => [
+                'arrayOfComplexObjectsLevel3' => [
                     'name' => 'arrayOfComplexObjectsLevel3',
                     'type' => Type::listOf(Types::complexObjectLevel3()),
                     'description' => '',
